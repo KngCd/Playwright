@@ -1,15 +1,18 @@
 import { expect, test } from '@playwright/test';
+import dotenv from 'dotenv';
 
-test("Login Demo Test 1", async({ page, context}) => {
+dotenv.config()
+
+test.only("Login Demo Test 1", async({ page, context}) => {
     // Go this page
     await page.goto('https://demo.applitools.com/');
     await page.pause();
 
     // Fill the username
-    await page.getByRole('textbox', { name: 'Enter your username' }).fill('Raghav');
+    await page.getByRole('textbox', { name: 'Enter your username' }).fill(process.env.WEB_USERNAME);
 
     // Fill the password
-    await page.getByRole('textbox', { name: 'Enter your password' }).fill('1234');
+    await page.getByRole('textbox', { name: 'Enter your password' }).fill(process.env.WEB_PASSWORD);
 
     // Ensure the 'Remember Me' is checked
     await page.getByRole('checkbox', { name: 'Remember Me' }).check();
