@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config()
 
-test.only("Login Demo Test 1", async({ page, context}) => {
+test("Login Demo Test 1", async({ page, context}) => {
     // Go this page
     await page.goto('https://demo.applitools.com/');
     await page.pause();
