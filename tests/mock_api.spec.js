@@ -51,7 +51,7 @@ test.describe('Mocking APIs', () => {
 
     });
 
-    test.only('should handle 404 response gracefully', async ({ page }) => {
+    test('should handle 404 response gracefully', async ({ page }) => {
         await page.route('**/api/articles*', async route => {
             await route.fulfill({
                 status: 404,
