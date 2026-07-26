@@ -1,0 +1,62 @@
+{
+  "articles": [
+    {
+      "slug": "mastering-it-support-fundamentals-1",
+      "title": "Mastering IT Support Fundamentals",
+      "description": "Learn the essential skills needed to troubleshoot computers, support users, and build a strong foundation in IT support.",
+      "body": "IT Support is one of the best entry points into the technology industry. Understanding operating systems, networking basics, and troubleshooting techniques can help you solve real-world technical problems efficiently.\n\nThis article covers the core concepts every aspiring IT support professional should know, along with practical tips for developing problem-solving skills and delivering excellent customer support.",
+      "tagList": [
+        "IT Support"
+      ],
+      "createdAt": "2026-07-23T10:00:00.000Z",
+      "updatedAt": "2026-07-23T10:00:00.000Z",
+      "favorited": false,
+      "favoritesCount": 128,
+      "author": {
+        "username": "John Doe",
+        "bio": "IT Support Specialist",
+        "image": "https://api.realworld.io/images/smiley-cyrus.jpg",
+        "following": false
+      }
+    },
+    {
+      "slug": "software-testing-best-practices-1",
+      "title": "Software Testing Best Practices",
+      "description": "Discover why software testing is a critical part of delivering high-quality applications.",
+      "body": "Software Testing helps teams identify bugs before software reaches end users. By combining manual testing with automation, testers can improve software quality while reducing release risks.\n\nIn this article, we'll discuss functional testing, regression testing, and automation strategies that every QA engineer should know.",
+      "tagList": [
+        "Software Testing"
+      ],
+      "createdAt": "2026-07-23T10:15:00.000Z",
+      "updatedAt": "2026-07-23T10:15:00.000Z",
+      "favorited": true,
+      "favoritesCount": 342,
+      "author": {
+        "username": "Jane Smith",
+        "bio": "QA Automation Engineer",
+        "image": "https://api.realworld.io/images/smiley-cyrus.jpg",
+        "following": false
+      }
+    },
+    {
+      "slug": "network-technology-for-beginners-1",
+      "title": "Network Technology for Beginners",
+      "description": "A beginner-friendly guide to networking concepts such as IP addresses, routers, switches, and protocols.",
+      "body": "Network Technology is the backbone of modern computing. Whether you're troubleshooting connectivity issues or designing enterprise infrastructure, understanding how networks operate is an essential skill.\n\nThis article introduces common networking devices, the OSI model, TCP/IP, and practical networking concepts that every IT professional should understand.",
+      "tagList": [
+        "Network Technology"
+      ],
+      "createdAt": "2026-07-23T10:30:00.000Z",
+      "updatedAt": "2026-07-23T10:30:00.000Z",
+      "favorited": false,
+      "favoritesCount": 215,
+      "author": {
+        "username": "Alex Johnson",
+        "bio": "Network Engineer",
+        "image": "https://api.realworld.io/images/smiley-cyrus.jpg",
+        "following": false
+      }
+    }
+  ],
+  "articlesCount": 3
+}
